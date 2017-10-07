@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Psychic Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-6">
+            <header>
+                <h1>Madam Ruby's REVENGE!</h1>
+            </header>
+            <div class="instructions">
+                <h3>Let's see what Madam Ruby sees!</h3>
+                <p>
+                    <br>I'll give you 10 chances to guess which letter I'm thinking of.
+                    <br> If you're correct, I'll tell you where you parked your bike, but if you guess incorrectly more than
+                    nine times, you'll spend eternity eating tuna melts with Large Marge.
+                    <br> Your score will appear below...
+                    <br> You're paying me by the minute, hurry up and choose a letter by pressing a key!.
+                </p>
+            </div>
+            <div id="game">
+                <h4>Score</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <p id="wins">Wins: </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p id="losses">Losses: </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p id="guessesLeft">Number of guesses left: </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p id="guessedLetters">Your guesses: </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
